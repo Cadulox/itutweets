@@ -1,0 +1,12 @@
+D:\projects\ItuTweets\ItuTweets.Domain\bin\Debug\net6.0\ItuTweets.Domain.deps.json
+D:\projects\ItuTweets\ItuTweets.Domain\bin\Debug\net6.0\ItuTweets.Domain.dll
+D:\projects\ItuTweets\ItuTweets.Domain\bin\Debug\net6.0\ItuTweets.Domain.pdb
+D:\projects\ItuTweets\ItuTweets.Domain\obj\Debug\net6.0\ItuTweets.Domain.csproj.AssemblyReference.cache
+D:\projects\ItuTweets\ItuTweets.Domain\obj\Debug\net6.0\ItuTweets.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\ItuTweets\ItuTweets.Domain\obj\Debug\net6.0\ItuTweets.Domain.AssemblyInfoInputs.cache
+D:\projects\ItuTweets\ItuTweets.Domain\obj\Debug\net6.0\ItuTweets.Domain.AssemblyInfo.cs
+D:\projects\ItuTweets\ItuTweets.Domain\obj\Debug\net6.0\ItuTweets.Domain.csproj.CoreCompileInputs.cache
+D:\projects\ItuTweets\ItuTweets.Domain\obj\Debug\net6.0\ItuTweets.Domain.dll
+D:\projects\ItuTweets\ItuTweets.Domain\obj\Debug\net6.0\refint\ItuTweets.Domain.dll
+D:\projects\ItuTweets\ItuTweets.Domain\obj\Debug\net6.0\ItuTweets.Domain.pdb
+D:\projects\ItuTweets\ItuTweets.Domain\obj\Debug\net6.0\ref\ItuTweets.Domain.dll

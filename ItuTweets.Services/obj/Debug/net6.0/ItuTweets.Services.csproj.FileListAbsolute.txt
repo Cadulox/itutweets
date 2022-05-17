@@ -1,0 +1,17 @@
+D:\projects\ItuTweets\ItuTweets.Services\bin\Debug\net6.0\ItuTweets.Services.deps.json
+D:\projects\ItuTweets\ItuTweets.Services\bin\Debug\net6.0\ItuTweets.Services.dll
+D:\projects\ItuTweets\ItuTweets.Services\bin\Debug\net6.0\ItuTweets.Services.pdb
+D:\projects\ItuTweets\ItuTweets.Services\obj\Debug\net6.0\ItuTweets.Services.csproj.AssemblyReference.cache
+D:\projects\ItuTweets\ItuTweets.Services\obj\Debug\net6.0\ItuTweets.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\ItuTweets\ItuTweets.Services\obj\Debug\net6.0\ItuTweets.Services.AssemblyInfoInputs.cache
+D:\projects\ItuTweets\ItuTweets.Services\obj\Debug\net6.0\ItuTweets.Services.AssemblyInfo.cs
+D:\projects\ItuTweets\ItuTweets.Services\obj\Debug\net6.0\ItuTweets.Services.csproj.CoreCompileInputs.cache
+D:\projects\ItuTweets\ItuTweets.Services\obj\Debug\net6.0\ItuTweets.Services.dll
+D:\projects\ItuTweets\ItuTweets.Services\obj\Debug\net6.0\refint\ItuTweets.Services.dll
+D:\projects\ItuTweets\ItuTweets.Services\obj\Debug\net6.0\ItuTweets.Services.pdb
+D:\projects\ItuTweets\ItuTweets.Services\obj\Debug\net6.0\ref\ItuTweets.Services.dll
+D:\projects\ItuTweets\ItuTweets.Services\bin\Debug\net6.0\ItuTweets.Domain.dll
+D:\projects\ItuTweets\ItuTweets.Services\bin\Debug\net6.0\ItuTweets.Domain.pdb
+D:\projects\ItuTweets\ItuTweets.Services\obj\Debug\net6.0\ItuTweets.Services.csproj.CopyComplete
+D:\projects\ItuTweets\ItuTweets.Services\bin\Debug\net6.0\ItuTweets.Data.dll
+D:\projects\ItuTweets\ItuTweets.Services\bin\Debug\net6.0\ItuTweets.Data.pdb

@@ -1,0 +1,17 @@
+D:\projects\ItuTweets\ItuTweets.Scrapper\bin\Debug\net6.0\ItuTweets.Scrapper.deps.json
+D:\projects\ItuTweets\ItuTweets.Scrapper\bin\Debug\net6.0\ItuTweets.Scrapper.dll
+D:\projects\ItuTweets\ItuTweets.Scrapper\bin\Debug\net6.0\ItuTweets.Scrapper.pdb
+D:\projects\ItuTweets\ItuTweets.Scrapper\obj\Debug\net6.0\ItuTweets.Scrapper.csproj.AssemblyReference.cache
+D:\projects\ItuTweets\ItuTweets.Scrapper\obj\Debug\net6.0\ItuTweets.Scrapper.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\ItuTweets\ItuTweets.Scrapper\obj\Debug\net6.0\ItuTweets.Scrapper.AssemblyInfoInputs.cache
+D:\projects\ItuTweets\ItuTweets.Scrapper\obj\Debug\net6.0\ItuTweets.Scrapper.AssemblyInfo.cs
+D:\projects\ItuTweets\ItuTweets.Scrapper\obj\Debug\net6.0\ItuTweets.Scrapper.csproj.CoreCompileInputs.cache
+D:\projects\ItuTweets\ItuTweets.Scrapper\obj\Debug\net6.0\ItuTweets.Scrapper.dll
+D:\projects\ItuTweets\ItuTweets.Scrapper\obj\Debug\net6.0\refint\ItuTweets.Scrapper.dll
+D:\projects\ItuTweets\ItuTweets.Scrapper\obj\Debug\net6.0\ItuTweets.Scrapper.pdb
+D:\projects\ItuTweets\ItuTweets.Scrapper\obj\Debug\net6.0\ref\ItuTweets.Scrapper.dll
+D:\projects\ItuTweets\ItuTweets.Scrapper\bin\Debug\net6.0\ItuTweets.Domain.dll
+D:\projects\ItuTweets\ItuTweets.Scrapper\bin\Debug\net6.0\ItuTweets.Domain.pdb
+D:\projects\ItuTweets\ItuTweets.Scrapper\obj\Debug\net6.0\ItuTweets.Scrapper.csproj.CopyComplete
+D:\projects\ItuTweets\ItuTweets.Scrapper\bin\Debug\net6.0\ItuTweets.Data.dll
+D:\projects\ItuTweets\ItuTweets.Scrapper\bin\Debug\net6.0\ItuTweets.Data.pdb

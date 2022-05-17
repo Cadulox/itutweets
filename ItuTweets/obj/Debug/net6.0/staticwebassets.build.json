@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "18MIcVjgFajpvR2fhXLDoBW1o1dt6RkIEzSJOE2hL+k=",
+  "Source": "ItuTweets.API",
+  "BasePath": "_content/ItuTweets.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
