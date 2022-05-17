@@ -31,8 +31,14 @@ namespace ItuTweets
             services.AddSwaggerGen();
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment environment)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment environment, IServiceProvider service)
         {
+            using (var scope = service.CreateScope())
+            {
+                var dataContext = scope.ServiceProvider.GetRequiredService<ItuTweetsContext>();
+                dataContext.Database.Migrate();
+            }
+
             if (environment.IsDevelopment())
             {
                 app.UseSwagger();

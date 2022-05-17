@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "94fcbfe6-e701-4895-b7f4-c2e601d4c095",
+		"name": "Itutweets",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Feed Database",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5014/api/tweetdata/feed_database",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5014",
+					"path": [
+						"api",
+						"tweetdata",
+						"feed_database"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Top Five Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5014/api/tweetdata/top_five_users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5014",
+					"path": [
+						"api",
+						"tweetdata",
+						"top_five_users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post By Hour",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5014/api/tweetdata/posts_by_hour",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5014",
+					"path": [
+						"api",
+						"tweetdata",
+						"posts_by_hour"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Posts By Tag",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5014/api/tweetdata/posts_by_tag?tag=sre",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5014",
+					"path": [
+						"api",
+						"tweetdata",
+						"posts_by_tag"
+					],
+					"query": [
+						{
+							"key": "tag",
+							"value": "sre"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -73,7 +73,6 @@ namespace ItuTweets.Services
                 }
                 _context.SaveChanges();
             }
-
         }
     }
 }

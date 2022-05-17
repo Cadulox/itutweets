@@ -33,12 +33,44 @@ namespace ItuTweets.Services
             return twitterUsers;
         }
 
+        public List<PostsByHourRequest> GetPostsByHour()
+        {
+            var result = _context.Tweets
+                .AsEnumerable()
+                .GroupBy(x => new
+                {
+                    x.Created_at.Date,
+                    x.Created_at.Hour
+                })
+                .Select(x => new
+                {
+                    x.Key.Date,
+                    Hour = x.Key.Hour - 3,
+                    Count = x.Count()
+                })
+                .OrderByDescending(x => x.Date)
+                .ThenByDescending(x => x.Hour);
+
+            List<PostsByHourRequest> postsByHour = new();
+            foreach (var item in result)
+            {
+                postsByHour.Add(new PostsByHourRequest
+                {
+                    Datetime = ($"{item.Date:dd/MM/yyyy} {item.Hour}:00:00"),
+                    Total_posts = item.Count
+                });
+            }
+
+            return postsByHour;
+        }
+
         public List<PostByTagRequest> GetPostsByTag(string tag)
         {
-            if (tag.Contains("#"))
+            if (tag.Contains('#'))
             {
                 tag = tag.Replace("#", String.Empty);
             }
+
             var postsByTag =
                 from tweets in _context.Tweets
                 where tweets.Text.Contains(tag)

@@ -11,7 +11,7 @@ namespace ItuTweets
 
             var app = builder.Build();
 
-            startup.Configure(app, app.Environment);
+            startup.Configure(app, app.Environment, app.Services);
 
             app.Run();
         }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SWbRi4EdNJVYWVvBOTtL8/JQdmBQxJrfVBJoYLWIgCSoRO7+SZ14B2+ZzWjOjfFfAEXbDnpqKjz3jD6qjleV+Q==",
+  "dgSpecHash": "G3KuUj3b+1kEV0sl0x13ZojZ88KnYKkZNFroVBFjjmJBwfarrDXpZF7zQLSysM36eoL63iTUyWv77bY/R0GywQ==",
   "success": true,
   "projectFilePath": "D:\\projects\\ItuTweets\\ItuTweets\\ItuTweets.API.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\orion\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\orion\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\orion\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\orion\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\orion\\.nuget\\packages\\mysqlconnector\\2.1.2\\mysqlconnector.2.1.2.nupkg.sha512",
     "C:\\Users\\orion\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\orion\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.1\\pomelo.entityframeworkcore.mysql.6.0.1.nupkg.sha512",

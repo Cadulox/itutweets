@@ -16,7 +16,7 @@ namespace ItuTweets.API.Controllers
             _tweetDataService = tweetDataService;
         }
 
-        [HttpGet("/feed_database")]
+        [HttpGet("feed_database")]
         [ProducesResponseType(statusCode: StatusCodes.Status200OK)]
         [ProducesResponseType(statusCode: StatusCodes.Status500InternalServerError)]
         public IActionResult FeedDatabase()
@@ -32,7 +32,7 @@ namespace ItuTweets.API.Controllers
             }
         }
 
-        [HttpGet("/top_five_users")]
+        [HttpGet("top_five_users")]
         [ProducesResponseType(statusCode: StatusCodes.Status200OK)]
         [ProducesResponseType(statusCode: StatusCodes.Status404NotFound)]
         public IActionResult GetTopFiveUsers()
@@ -44,16 +44,21 @@ namespace ItuTweets.API.Controllers
             return Ok(users);
         }
 
-        [HttpGet("/posts_by_hour")]
+        [HttpGet("posts_by_hour")]
         [ProducesResponseType(statusCode: StatusCodes.Status200OK)]
         [ProducesResponseType(statusCode: StatusCodes.Status404NotFound)]
         public ActionResult<string> GetPostsByHour()
         {
-            return Ok();
+            var result = _tweetDataService.GetPostsByHour();
+            if (result == null || !result.Any())
+                return NotFound("No record found!");
+
+            return Ok(result);
         }
 
-        [HttpGet("/posts_by_tag")]
+        [HttpGet("posts_by_tag")]
         [ProducesResponseType(statusCode: StatusCodes.Status200OK)]
+        [ProducesResponseType(statusCode: StatusCodes.Status400BadRequest)]
         [ProducesResponseType(statusCode: StatusCodes.Status404NotFound)]
         public IActionResult GetPostsGroupByLanguage(string tag)
         {
@@ -63,7 +68,5 @@ namespace ItuTweets.API.Controllers
 
             return Ok(result);
         }
-
-
     }
 }
