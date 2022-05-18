@@ -36,7 +36,8 @@ Posts By Tag | GET | api/tweetdata/posts_by_tag?tag=sre
 <p align="center">
     <img alt="Swagger" src="swagger.png">
 </p>
-- É possível verificar o comportamento dos recursos utilizando [Postman](https://www.postman.com/) com a collection `Itutweets.postman_collection.json` disponível no repositório.
+
+- É possível verificar o comportamento dos recursos utilizando o [POSTMAN](https://www.postman.com/) com a collection `Itutweets.postman_collection.json` disponível no repositório.
 
 ## Desenho de Arquitetura do Sistema
 <p align="center">
